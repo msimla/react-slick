@@ -126,7 +126,7 @@ var helpers = {
     }
     return canGo;
   },
-  slideHandler: function (index) {
+  slideHandler: function (index, dontAnimate) {
     // Functionality of animateSlide and postSlide is merged into this function
     // console.log('slideHandler', index);
     var targetSlide, currentSlide;
